@@ -1,0 +1,19 @@
+# Example configuration file for the H. pylori genotyping/phasing workflow
+
+patient_id: "example_patient"
+sample_id: "example_sample"
+reference_sample_id: "example_reference"
+
+software_dir: "./"
+isnv_table_dir: "./data/reliable_locus"
+reference_fasta_dir: "./data/reference_genomes"
+bam_dir: "./data/bam"
+output_dir: "./results/haplotype_reads"
+
+ccs_table_dir: "./data/ccs_tables"
+ngs_table_dir: "./data/ngs_tables"
+annotation_dir: "./data/annotations"
+block_output_dir: "./results/blocks_phasing"
+plot_output_dir: "./results/plots"
+resistance_output_dir: "./results/resistance_gene_snvs"
+metadata_file: "./config/sample_metadata.tsv"
